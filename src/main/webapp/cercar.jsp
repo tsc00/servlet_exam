@@ -10,8 +10,10 @@
 <body>
 <%
 ReadDB readDB = new ReadDB();
-ArrayList<Restaurants> arrl = readDB.readRestaurants(request.getParameter("cercar"));
+ArrayList<Restaurants> arrl = (ArrayList<Restaurants>) request.getAttribute("cerca");
 Iterator iter = arrl.iterator();
+
+
 
     out.println("<div> Resultats de la cerca </div>");
 
