@@ -10,7 +10,7 @@
 <body>
 <%
 ReadDB readDB = new ReadDB();
-ArrayList arrl = readDB.readRestaurants("cerca");
+ArrayList<Restaurants> arrl = readDB.readRestaurants(request.getParameter("cercar"));
 Iterator iter = arrl.iterator();
 
     out.println("<div> Resultats de la cerca </div>");

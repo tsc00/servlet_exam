@@ -12,7 +12,7 @@
     <h1>Restaurator</h1>
     <form method='GET' action="cerca">
         <div class="form-group">
-            <input type="text" class="form-control" id="cerca" placeholder="Cerca Restaurants" name="cerca">
+            <input type="text" class="form-control" id="cercar" placeholder="Cerca Restaurants" name="cercar">
         </div>
     </form>
 </div>
